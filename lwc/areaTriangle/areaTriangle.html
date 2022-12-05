@@ -1,0 +1,10 @@
+<template>
+    <lightning-card>
+    <lightning-input label="Height of the triangle" onchange={heightHandler}></lightning-input>
+    <lightning-input label="Base of the triangle" onchange={baseHandler}></lightning-input>
+    <lightning-button label="Run" onclick={resultHandler}></lightning-button>
+    <lightning-output-field value={result}></lightning-output-field>
+    <p>{result}</p>
+
+</lightning-card>
+</template>

@@ -1,0 +1,18 @@
+<template>
+    <div style="background:bisque; border:2px solid gray; padding: 10px;">
+
+     <lightning-progress-bar size="medium" value={progres} variant="circular"> </lightning-progress-bar>   
+        <p style="font-size:10px; text-align:center"> Simple LWC Quiz</p>
+        <form>
+            <p style="color:blueviolet">What is  3+4=?</i></p>
+            <input  style="width: 300px" type="number" name="answer1" onchange={handlerChange}>
+
+            <p style="color:blueviolet">What is  3+5=?</i></p>
+            <input  style="width: 300px" type="number" name="answer2" onchange={handlerChange}>
+
+        </form>
+        <div style="background:green; color:white; margin-top: 5px; padding-left: 5px;">Correct Answers:{correct}</div>
+        <div style="background:red; color:white; margin-top: 5px; padding-left: 5px;">Incorrect Answers:{incorrect}</div>
+    </div>
+    
+</template>

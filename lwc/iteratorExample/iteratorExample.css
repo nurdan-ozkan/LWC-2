@@ -1,0 +1,12 @@
+.mydiv{
+    background-color: antiquewhite;
+    font-size: medium;
+    margin: 10px;
+    border-color:aqua;
+    border-style:solid;
+    padding:10px;
+}
+.score{
+    padding-left: 10px;
+    color:blue;
+}
